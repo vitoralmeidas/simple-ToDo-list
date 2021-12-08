@@ -21,7 +21,7 @@ export const SearchBar = (props) => {
     <div>
       <input
         placeholder="Adicione um item..."
-        className="border ring-1 ring-black rounded-md mb-2 text-sm p-2"
+        className="border ring-1 ring-black rounded-xl mb-2 text-sm p-2"
         type="text"
         // evento para atualizar 'text' para ficar visivel enquanto digitamos
         onChange={(e) => setText(e.target.value)}
